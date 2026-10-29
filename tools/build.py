@@ -27,7 +27,7 @@ def e(s):
 
 def page(fname, title, body, desc=None):
     cur = ' aria-current="page"'
-    nav = "".join(f'<a href="{f}"{cur if f == fname else ""}>{n}</a>' for f, n in NAV)
+    nav = "".join(f'<a href="{f}"{cur if f == fname else ""}><i>{i:02d}</i>{n}</a>' for i, (f, n) in enumerate(NAV, 1))
     full = f"{title} | {LAB['short']}" if fname != "index.html" else f"{LAB['short']} · {LAB['ko']}"
     return f"""<!doctype html>
 <html lang="en">
@@ -44,12 +44,13 @@ def page(fname, title, body, desc=None):
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="site-head">
-  <div class="wrap">
-    <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="URI3AN Lab logo" width="564" height="188"><span>{e(LAB['ko'])}<small>Ewha Womans University</small></span></a>
-    <nav class="nav" aria-label="Main">{nav}</nav>
-  </div>
-</header>
+<aside class="side">
+  <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="URI3AN Lab logo" width="564" height="188"></a>
+  <p class="side-name">{e(LAB['ko'])}<small>Ewha Womans University</small></p>
+  <nav class="nav" aria-label="Main">{nav}</nav>
+  <div class="side-contact"><a href="mailto:{e(LAB['email'])}">{e(LAB['email'])}</a><span>{e(LAB['phone'])}</span></div>
+</aside>
+<div class="main-col">
 <main>
 {body}
 </main>
@@ -59,6 +60,7 @@ def page(fname, title, body, desc=None):
     <div><span>{e(LAB['office'])}</span><span><a href="mailto:{e(LAB['email'])}">{e(LAB['email'])}</a> · {e(LAB['phone'])}</span></div>
   </div>
 </footer>
+</div>
 </body>
 </html>
 """
