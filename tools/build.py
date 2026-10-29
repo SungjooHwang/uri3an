@@ -99,9 +99,9 @@ def members():
     cards = []
     for m in site["members"]:
         note = f'<p class="note">{e(m["note"])}</p>' if m.get("note") else ""
-        cards.append(f'<li class="person"><img src="assets/img/members/{m["img"]}.webp" alt="{e(m["name"])}" loading="lazy" width="480" height="600">'
+        cards.append(f'<li class="person"><img src="assets/img/members/{m["img"]}.webp" alt="{e(m["name"])}" loading="lazy" width="480" height="600"><div>'
                      f'<h3>{e(m["ko"] or m["name"])}<span>{e(m["name"]) if m["ko"] else ""}</span></h3>'
-                     f'<p class="role">{e(m["role"])} ({e(m["since"])} ~ )</p><p>Research interest: {e(m["interest"])}</p>{note}</li>')
+                     f'<p class="role">{e(m["role"])} ({e(m["since"])} ~ )</p><p>Research interest: {e(m["interest"])}</p>{note}</div></li>')
     al = []
     for grp in ("PhD", "MSc", "Postdoc"):
         label = "Doctoral Dissertation" if grp == "PhD" else "Master&#39;s Thesis"
