@@ -1,0 +1,142 @@
+[
+ {
+  "status": "ongoing",
+  "title": "Paradigm for Peak Disaster Risk Management Based on Quantitative Tracking of Urban Spatial Vulnerability Changes",
+  "sponsor": "National Research Foundation of Korea (한국연구재단-개척연구)",
+  "partner": "",
+  "ko": "도시공간 취약성 변화 정량 추적 기반 첨두재난리스크(Peak Risk) 관리 패러다임 구축 및 핵심 기술 개발",
+  "role": "PI (연구책임자)",
+  "img": "peak-risk",
+  "years": "2025-2028"
+ },
+ {
+  "status": "ongoing",
+  "title": "Automated Generation of Visible Environmental Modification Plans through Deep Vision-based Inference of Pedestrian Satisfaction toward Various Walking Environment Components",
+  "sponsor": "National Research Foundation of Korea (한국연구재단-우수신진연구)",
+  "partner": "",
+  "ko": "컴퓨터 비전 기반 보행환경 만족도 정량 추정을 통한 환경개선안 자동 추천 및 이미지 생성 기술 개발",
+  "role": "PI (연구책임자)",
+  "img": "",
+  "years": "2023-2028"
+ },
+ {
+  "status": "ongoing",
+  "title": "Validation of domestic wood-based flooring development of design guidelines",
+  "sponsor": "Korea Forest Service (산림청)",
+  "partner": "Dankook University, Korea Association of Wood Culture",
+  "ko": "국산목질계 바닥의 유효성 검증 및 설계 가이드라인 개발",
+  "role": "Co-PI (공동연구책임자)",
+  "img": "",
+  "years": "2023-2025"
+ },
+ {
+  "status": "ongoing",
+  "title": "Development of Big Data-based Urban Planning Using AI Technology",
+  "sponsor": "Ministry of Land, Infrastructure and Transport (국토교통부)",
+  "partner": "",
+  "ko": "빅데이터 기반 인공지능을 활용한 도시계획기술 개발",
+  "role": "Researcher (참여연구원: 방재안전 분야 지표개발)",
+  "img": "",
+  "years": "2022-2026"
+ },
+ {
+  "status": "past",
+  "title": "AI Technology for Analyzing Fire Engines’ Accessibility to Fire Site",
+  "sponsor": "Ministry of the Interior and Safety (행정안전부) & Seoul Metropolitan Government (서울특별시)",
+  "partner": "Seoul Institute of Technology, Dudaji Inc.",
+  "ko": "AI 추론을 통한 소방 특수차량의 재난현장 접근성 분석 기술 개발",
+  "role": "Co-PI (공동연구책임자)",
+  "img": "fire-access",
+  "years": "2022-2023"
+ },
+ {
+  "status": "past",
+  "title": "Integration of Quantitative User Benefit Analysis and 3D Facility Information Model for Optimized Urban Wooden Street Planning",
+  "sponsor": "Korea Forest Service (산림청)",
+  "partner": "Dankook University, Korea Association of Wood Culture",
+  "ko": "도시 목조화거리 조성계획을 위한 3D시설물 정보모델 및 정량적 효과분석 기술 개발",
+  "role": "PI (주관연구책임자)",
+  "img": "wooden-street",
+  "years": "2021-2023"
+ },
+ {
+  "status": "past",
+  "title": "Development of Off-site Construction Technologies for Precast-Concrete Apartment Housing Production System",
+  "sponsor": "Ministry of Land, Infrastructure and Transport (국토교통부)",
+  "partner": "LH, KICT, SH, etc.",
+  "ko": "Off-Site Construction 기반 공동주택 생산시스템 혁신기술개발",
+  "role": "Co-Researcher (공동연구원: OSC 스마트 공장안전관리시스템 개발 부분)",
+  "img": "osc",
+  "years": "2020-2023"
+ },
+ {
+  "status": "past",
+  "title": "Planning of Public Housing Project Supporting Integrated Platform Using AI and Big Data",
+  "sponsor": "Ministry of Land, Infrastructure and Transport (국토교통부)",
+  "partner": "",
+  "ko": "(연구기획과제) AI·빅데이터 기반 공공임대주택 사업지원 통합플랫폼 구축 기획",
+  "role": "Researcher (참여연구원)",
+  "img": "",
+  "years": "2022-2023"
+ },
+ {
+  "status": "past",
+  "title": "Investigation of Interest in Sub-sectors of Wooden Construction Industry",
+  "sponsor": "National Institute of Forest Science (국립산림과학원)",
+  "partner": "",
+  "ko": "(위탁연구) 목조건축 연관산업별 이해관계 구명 용역",
+  "role": "PI (연구책임자)",
+  "img": "",
+  "years": "2023"
+ },
+ {
+  "status": "past",
+  "title": "Abnormal Situation Identification through Human Behavioral Response Monitoring and Behavioral Sequence Analysis",
+  "sponsor": "National Research Foundation of Korea (한국연구재단)",
+  "partner": "",
+  "ko": "인간행태감지 및 행태시퀀스 분석을 통한 도시이상상황 식별기술개발",
+  "role": "PI (연구책임자)",
+  "img": "",
+  "years": "2020-2021"
+ },
+ {
+  "status": "past",
+  "title": "3D-CNN-based Automated Shoplifting Detection in Unmanned Stores through Behavioral Sequence Analysis",
+  "sponsor": "Ministry of SMEs and Startups (중소벤처기업부)",
+  "partner": "Dudaji Inc.",
+  "ko": "행동시퀀스 분석을 통한 3D CNN 기반 무인소매점 절도행위 자동감지 연구",
+  "role": "Co-PI (공동연구책임자)",
+  "img": "",
+  "years": "2018-2019"
+ },
+ {
+  "status": "past",
+  "title": "Distributed Sensor-Simulation Platform for Interactive Disaster Responses",
+  "sponsor": "National Research Foundation of Korea (한국연구재단)",
+  "partner": "",
+  "ko": "분산형 센서-시뮬레이션 네트워크를 활용한 도시재난대응 플랫폼 기반기술 구축",
+  "role": "PI (연구책임자)",
+  "img": "",
+  "years": "2017-2020"
+ },
+ {
+  "status": "past",
+  "title": "Construction Workers' Safety and Health Management Based on Continuous Physiological Monitoring Using Wearable Devices",
+  "sponsor": "Ewha Womans University (이화여자대학교)",
+  "partner": "",
+  "ko": "웨어러블 디바이스 기반 실시간 모니터링을 활용한 건설작업자 안전보건관리",
+  "role": "PI (연구책임자)",
+  "img": "worker-wearable",
+  "years": "2017-2019"
+ },
+ {
+  "status": "past",
+  "title": "Seismic Risk Analysis of Architectural Heritages in Gyeongju and Pohang",
+  "sponsor": "National Research Institute of Cultural Heritage (국립문화재연구소)",
+  "partner": "Seoul National University, Gyeongnam National University of Science and Technology, Geo Radar Inc.",
+  "ko": "경주,포항지역 건축문화재 지진위험지도 제작을 위한 기초연구",
+  "role": "Co-PI (공동연구책임자)",
+  "img": "",
+  "years": "2018"
+ }
+]

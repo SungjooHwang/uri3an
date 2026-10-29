@@ -1,0 +1,105 @@
+{
+ "lab": {
+  "name": "URBAN Informatics and Intelligent Infrastructure Lab",
+  "short": "URI3AN Lab",
+  "ko": "도시정보지능화연구실",
+  "tagline": "Enhancing our quality of life through sustainable, resilient, and intelligent built environment and cities",
+  "dept": "Department of Architectural & Urban Systems Engineering, Ewha Womans University",
+  "email": "hwangsj@ewha.ac.kr",
+  "office": "52, Ewhayeodae-gil, Seoul, 03760, Korea",
+  "phone": "+82-2-3277-6952"
+ },
+ "news": [
+  {"date": "2026.08.19–22", "text": "International Conference on Asia-Pacific Planning Societies (Tarumanagara University, Jakarta, Indonesia) — 김태윤, 이희정 박사과정, 황예지, 최지원 석사과정 발표", "imgs": ["2026-08-apps-1"]},
+  {"date": "2026.06.14–17", "text": "ASCE International Conference on Computing in Civil Engineering 2026 (Incheon, Korea) — 황예지, 최지원 석사과정 발표", "imgs": ["2026-06-i3ce-1"]},
+  {"date": "2026.06.13", "text": "도시정보지능화연구실 2026년 혁신창업실험실 선정", "imgs": ["2026-06-startup-lab-1", "2026-06-startup-lab-2"]},
+  {"date": "2026.02.23", "text": "김태윤, 심영서 석사 학위 취득", "imgs": ["2026-02-degree-1", "2026-02-degree-2", "2026-02-degree-3"]},
+  {"date": "2025.11.21", "text": "2025 한국건설관리학회 정기학술발표대회 참석 (제주)", "imgs": ["2025-11-kicem-1"]},
+  {"date": "2025.09.25", "text": "2025 World Citytech Expo (고양)", "link": "http://www.ewha.ac.kr/ewha/news/organ-news.do?mode=view&articleNo=357980&article.offset=0&articleLimit=10", "imgs": ["2025-09-citytech-1"]},
+  {"date": "2025.07.28–31", "text": "CSCE Construction Specialty Conference / ASCE Construction Research Congress (CRC) 2025 (Concordia University, Montreal, Canada) — 김태윤, 심영서, 신수연 석사과정 발표", "imgs": ["2025-07-crc-1"]},
+  {"date": "2024.10.25", "text": "대한건축학회 추계학술발표대회", "imgs": ["2024-10-aik-1"]},
+  {"date": "2024.09.25", "text": "건축도시시스템공학과 30주년 특별세미나 및 기념식", "imgs": []},
+  {"date": "2024 봄", "text": "", "imgs": ["2024-spring-1"]},
+  {"date": "2024.02.23", "text": "김시연, 이미성 박사 학위 취득 · 김태은 석사 학위 취득", "imgs": ["2024-02-degree-1"]},
+  {"date": "2023.08.23", "text": "김연주 석사 학위 취득", "imgs": ["2023-08-degree-1"]},
+  {"date": "2023.02.28", "text": "이희정 석사 학위 취득", "imgs": ["2023-02-degree-1", "2023-02-degree-2"]},
+  {"date": "2020.07.20", "text": "김시연, 이미성, 이희림 석사 학위 취득", "imgs": ["2020-07-degree-1"]}
+ ],
+ "members": [
+  {"name": "Heejung Lee", "ko": "이희정", "role": "PhD Student", "since": "2025", "img": "heejung-lee", "interest": "Wearable sensing for inferring human perception, geospatial big data analysis, urban peak exposure analysis using anomaly detection, urban change detection using satellite imagery, AI-based urban vulnerability assessment and preparedness planning"},
+  {"name": "Taeyoon Kim", "ko": "김태윤", "role": "PhD Student", "since": "2024", "img": "taeyoon-kim", "interest": "Automated assessment of physical walkability with pedestrian behavioral responses using keypoint detection, automated multi-dimensional urban quality diagnostics, multimodal AI for urban sentiment perception and personalized place recommendation"},
+  {"name": "Reicha Santiana Jesca Adriesti", "ko": "", "role": "PhD Student", "since": "2026", "img": "reicha", "interest": "TBD"},
+  {"name": "Jiwon Choi", "ko": "최지원", "role": "MSc Student", "since": "2025", "img": "jiwon-choi", "interest": "Generative landscape design and optimization"},
+  {"name": "Yeji Hwang", "ko": "황예지", "role": "MSc Student", "since": "2025", "img": "yeji-hwang", "interest": "Evaluation of serial vision in urban landscapes"},
+  {"name": "Seon Hee Kang", "ko": "강선희", "role": "Integrated BSc/MSc Student", "since": "2025", "img": "seonhee-kang", "interest": "Quantitative assessment of urban greenery quality, automated generation of streetscape improvement plans", "note": "BSc Thesis: Interpretable Assessment of Human-Perceived Street-Level Urban Greenery Quality via Panoptic Segmented Visual Features (대한건축학회 우수졸업논문전 학사부문 최우수상)"},
+  {"name": "Seokang Ko", "ko": "고서강", "role": "MSc Student", "since": "2026", "img": "seokang-ko", "interest": "Keypoint-based vulnerable pedestrian monitoring using CCTV videos"},
+  {"name": "Hayoun Cho", "ko": "조하윤", "role": "Undergraduate Student", "since": "2026", "img": "hayoun-cho", "interest": "TBD"}
+ ],
+ "alumni": {
+  "PhD": [
+   {"name": "Dr. Meesung Lee", "years": "2020–2024", "position": "Postdoc, University of Alberta, Canada", "thesis": "Evaluation of Visual Pleasantness-unpleasantness in Urban Streetscapes through Image-based Micro-scale Environmental Components Detection (이화여자대학교 일반대학원 우수학위논문상)"},
+   {"name": "Dr. Siyeon Kim", "years": "2020–2024", "position": "Postdoc, Purdue University, U.S.", "thesis": "Pedestrian Discomfort Inference in Urban Environments via CCTV-Based Gait Pattern Analysis with Anomaly Detection (이화여자대학교 일반대학원 우수학위논문상)"}
+  ],
+  "MSc": [
+   {"name": "Suyeon Shin", "years": "2024–2026", "thesis": "Capacity-adjusted Crowd Density Analysis in Narrow Urban Alleys Using Active Population Big Data and Raster-skeleton-based Road-space Capacity Estimation"},
+   {"name": "Taeyoon Kim", "years": "2024–2026", "thesis": "Automated Barrier Inference in Pedestrian Walkways from Surveillance Videos through Ankle Keypoint Relationship-Based Anomaly Detection (대한건축학회 우수졸업논문전 장려상)"},
+   {"name": "Youngseo Shim", "years": "2024–2026", "position": "Kunwon Engineering (건원엔지니어링)", "thesis": "Advancing Automated Evaluation of Urban Environmental Quality Through Qualitative Attribute Inference from Streetscape Images"},
+   {"name": "Taeeun Kim", "years": "2022–2024", "position": "Kunwon Engineering (건원엔지니어링)", "thesis": "Human Emotion Assessment Using Wearable Sensing and Machine Learning with Anomaly Detection in the Urban Environment (대한건축학회 우수졸업논문전 장려상)"},
+   {"name": "Yeon Joo Kim", "years": "2021–2023", "position": "BISTEP (부산과학기술고등교육진흥원)", "thesis": "가상환경을 활용한 속도 및 거리 기반 사람-차량 충돌위험 예측지표 평가: 건설 작업자 및 보행자를 대상으로"},
+   {"name": "Heejung Lee", "years": "2021–2024", "thesis": "Inferring Pedestrian Level of Service for Pathways through Electrodermal Activity Monitoring Using Wearable Physiological Sensors"},
+   {"name": "Heerim Lee", "years": "2018–2020", "position": "Lotte E&C (롯데건설)", "thesis": "신체적 및 정신적 부하에 따른 건설작업자의 안전 관련 상황인식 영향 분석 연구"},
+   {"name": "Meesung Lee", "years": "2018–2020", "thesis": "What Factors Affect Public Bike Demand by Purpose?: Integrated Analysis of User's Trip Patterns and Urban Geospatial Big Data"},
+   {"name": "Siyeon Kim", "years": "2018–2020", "thesis": "Framework for Abnormal Situation Identification based on Action Detection and Sequence Analysis: Focusing on Shoplifting"}
+  ],
+  "Postdoc": [
+   {"name": "Seulbi Lee", "years": "2021", "position": "Assistant Professor, Incheon National University"}
+  ],
+  "Undergraduate": [
+   {"name": "Gaeun Lee", "years": "2024–2026"}, {"name": "Chaeyeon Yoo", "years": "2024–2026"}, {"name": "Hajin Cho", "years": "2023–2025"},
+   {"name": "Yeoreum Yoon", "years": "2023–2025"}, {"name": "Saerin Bong", "years": "2022–2024"}, {"name": "Na-Kyung Kang", "years": "2023–2024"},
+   {"name": "Yun Ah Im", "years": "2020–2021"}, {"name": "Se Eun Gong", "years": "2020"}, {"name": "ChaeEun Im", "years": "2018"}
+  ]
+ },
+ "professor": {
+  "name": "Sungjoo Hwang, Ph.D.",
+  "ko": "황성주",
+  "title": "Associate Professor",
+  "dept": "Department of Architectural & Urban Systems Engineering, Ewha Womans University",
+  "interests": ["Interactive analysis between urban systems and built environments", "Urban systems and infrastructure management using information and communication technologies (ICTs)"],
+  "education": [
+   ["2015", "Ph.D., Dept. of Architecture & Architectural Engineering, Seoul National University, Seoul, Korea"],
+   ["2010", "M.Sc., Dept. of Architecture & Architectural Engineering, Seoul National University, Seoul, Korea"],
+   ["2008", "B.E., Dept. of Architecture & Architectural Engineering, Seoul National University, Seoul, Korea"]
+  ],
+  "experience": [
+   ["2022–Present", "Associate Professor, Dept. of Architectural & Urban Systems Engineering, Ewha Womans University, Seoul, Korea"],
+   ["2017–2022", "Assistant Professor, Dept. of Architectural & Urban Systems Engineering, Ewha Womans University, Seoul, Korea"],
+   ["2015–2016", "Research Associate, Dept. of Civil & Environmental Engineering, University of Michigan, Ann Arbor, MI, U.S."],
+   ["2011–2012", "Visiting Scholar, Dept. of Civil & Environmental Engineering, University of Michigan, Ann Arbor, MI, U.S."]
+  ],
+  "awards": [
+   ["2026", "우수강의교수상, 한국공학교육학회 (2026.09.17)"],
+   ["2026", "이화여자대학교 신진이화펠로우 (2026.03.01)"],
+   ["2025", "이화여자대학교 연구실적우수 표창장 (2025.03.01)"],
+   ["2023", "Young Urban Planner Network (YUPN) Best Paper Presentation Award, 2023 International Conference of Asian-Pacific Planning Societies held in Danang, Vietnam (2023.08.18)"],
+   ["2021", "이화여자대학교 영어강의우수 표창장 (2021.09.01)"],
+   ["2018", "Outstanding Reviewer, ASCE Journal of Construction Engineering and Management (2019.03.28)"],
+   ["2014", "2014 학회상 우수 논문상, 한국건설관리학회 (2014.11.08)"],
+   ["2014", "Thomas Fitch Rowland Prize (ASCE), given to the authors of the paper that demonstrates valuable contributions to construction management and construction engineering among the ones published in ASCE Journal of Construction Engineering and Management (2014.06.11)"],
+   ["2009", "Excellent Paper Award, the 3rd International Conference on Construction Engineering Management / the 6th International Conference on Construction Project Management (ICCEM-ICCPM 2009) (2009.05.30)"],
+   ["2008", "우수발표논문상, 2008 한국건설관리학회 정기학술발표대회 (2008.11.08)"],
+   ["2004–2008", "Korea Student Aid Foundation Scholarship, National Science & Technology Scholarship during 8 semesters"]
+  ],
+  "activities": [
+   ["2025–2027", "산업안전상생재단 자문위원"],
+   ["2025", "국토교통부 중앙건설기술심의위원회 설계심의분과위원"],
+   ["2023", "성남시 도시주거환경정비 기본계획 타당성검토용역 자문위원"],
+   ["2023", "서울시 도시 위험성 종합 평가 전문가 T/F 위원"],
+   ["2023–2025", "성남시 건축사징계위원회 위원"],
+   ["2021–2024", "경기주택도시공사 제안서 평가위원"],
+   ["2021–2027", "조달청 평가위원 (스마트건설기술)"],
+   ["2021–2023", "한국산업경제연구소 연구자문위원"],
+   ["2021–2022", "과천도시공사 기술자문위원회 위원"]
+  ]
+ }
+}
