@@ -69,7 +69,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 .band .hero figure { border: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
 main > .sec { border-top: 0; }
 body { background: var(--soft); }
-.site-head { box-shadow: 0 1px 0 var(--line); }
+.site-head { background: var(--band); border-bottom: 1px solid rgba(255,255,255,0.12); box-shadow: none; }
+.site-head .brand { color: #fff; }
+.site-head .brand small { color: var(--band-muted); }
+.site-head .nav a { color: rgba(255,255,255,0.85); }
+.site-head .nav a:hover { color: var(--yellow); }
+.site-head .nav a[aria-current="page"] { color: #fff; border-bottom-color: var(--yellow); }
 .band .hero .eyebrow { color: var(--sky); }
 .band .contact span { color: var(--band-muted); }
 .sec h2 { display: flex; align-items: center; gap: 10px; }
