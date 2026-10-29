@@ -54,6 +54,34 @@ ul { margin: 0; padding: 0; list-style: none; }
   .nav { gap: 2px 16px; font-size: 0.9rem; }
 }
 
+/* Blue band (page titles, home hero) */
+.band { background: var(--band); color: var(--band-text); background-image: linear-gradient(135deg, rgba(143,172,213,0.18), rgba(18,51,111,0) 60%); }
+.band h1, .band h2, .band h3 { color: #fff; }
+.band p, .band .eyebrow, .band .contact { color: var(--band-muted); }
+.band a { color: #fff; }
+.band .tag { color: #fff; }
+.band .contact b { color: #fff; }
+.band .hero .ko { color: var(--yellow); }
+.band .hero h1 em { color: var(--sky); }
+.band .toc a { color: #fff; border-color: rgba(255,255,255,0.35); }
+.band .toc a:hover { border-color: var(--yellow); color: var(--yellow); }
+.band .toc a span { color: var(--band-muted); }
+.band .hero figure { border: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+main > .sec { border-top: 0; }
+body { background: var(--soft); }
+.site-head { box-shadow: 0 1px 0 var(--line); }
+.band .hero .eyebrow { color: var(--sky); }
+.band .contact span { color: var(--band-muted); }
+.sec h2 { display: flex; align-items: center; gap: 10px; }
+.sec h2::before { content: ""; width: 6px; height: 1.1em; border-radius: 3px; background: var(--yellow); flex: none; }
+.news, .people, .projects, .courses, .dl, .alumni, .pubs { background: var(--bg); border: 1px solid var(--line); border-radius: 14px; padding: 4px 28px; box-shadow: 0 2px 6px rgba(18, 51, 111, 0.05); }
+.news li:first-child, .person:first-child, .project:first-child, .courses li:first-child { padding-top: 24px; }
+.dl li:first-child, .alumni li:first-child { border-top: 0; }
+.person img, .project img { box-shadow: 0 2px 8px rgba(18, 51, 111, 0.12); }
+.person .role, .project .yrs, .news time { color: var(--link); }
+.chips li { background: var(--bg); }
+.page-title { padding-block: 48px 40px; }
+@media (max-width: 560px) { .news, .people, .projects, .courses, .dl, .alumni, .pubs { padding: 4px 16px; } }
 /* Page title */
 .page-title { padding-block: 56px 32px; }
 .page-title h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
@@ -78,14 +106,19 @@ ul { margin: 0; padding: 0; list-style: none; }
 .news li { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 24px; padding-block: 24px; border-top: 1px solid var(--line); }
 .news li:first-child { border-top: 0; padding-top: 0; }
 .news time { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
-.news .pics { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-top: 12px; }
-.news .pics img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; background: var(--soft); }
+.news .pics { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.news .pics img { height: 240px; width: auto; max-width: 100%; object-fit: contain; border-radius: 8px; background: var(--soft); }
+@media (max-width: 640px) { .news .pics img { height: auto; width: 100%; } }
 @media (max-width: 640px) { .news li { grid-template-columns: 1fr; gap: 6px; } }
 
 /* Members */
-.people { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 28px 32px; }
-.person { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 0 18px; align-items: start; }
-.person img { width: 112px; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 20%; border-radius: 10px; background: var(--soft); }
+.people { display: grid; grid-template-columns: 1fr; gap: 0; }
+.person { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 0 32px; align-items: start; padding-block: 28px; border-top: 1px solid var(--line); }
+.person:first-child { border-top: 0; }
+.person h3 { font-size: 1.2rem; }
+.person p { max-width: 52em; }
+@media (max-width: 560px) { .person { grid-template-columns: 96px minmax(0, 1fr); gap: 0 16px; } .person img { width: 96px; } }
+.person img { width: 150px; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 20%; border-radius: 10px; background: var(--soft); }
 .person h3 { font-size: 1.05rem; }
 .person h3 span { color: var(--muted); font-weight: 500; margin-left: 6px; }
 .person .role { color: var(--ink); font-size: 0.9rem; font-weight: 600; }

@@ -65,7 +65,7 @@ def page(fname, title, body, desc=None):
 
 
 def title_block(h1, p=""):
-    return f'<section class="wrap page-title"><h1>{e(h1)}</h1>{"<p>" + e(p) + "</p>" if p else ""}</section>'
+    return f'<section class="band"><div class="wrap page-title"><h1>{e(h1)}</h1>{"<p>" + e(p) + "</p>" if p else ""}</div></section>'
 
 
 def home():
@@ -77,7 +77,7 @@ def home():
         pics = "".join(f'<img src="assets/img/news/{i}.webp" alt="{e(n["date"])} {e(n["text"])}" loading="lazy">' for i in n["imgs"])
         pics = '<div class="pics">' + pics + '</div>' if pics else ""
         items.append(f'<li><time>{e(n["date"])}</time><div><p>{txt}</p>{pics}</div></li>')
-    body = f"""<section class="wrap hero">
+    body = f"""<section class="band"><div class="wrap hero">
   <div>
     <p class="eyebrow">Ewha Womans University · Architectural &amp; Urban Systems Engineering</p>
     <h1>URBAN Informatics and Intelligent Infrastructure Lab</h1>
@@ -90,7 +90,7 @@ def home():
     </div>
   </div>
   <figure><img src="assets/img/concept.webp" alt="Lab concept: urban systems, people's safety, health and wellness, and intelligent infrastructures" width="606" height="712"></figure>
-</section>
+</div></section>
 <section class="sec"><div class="wrap"><h2>News</h2><ul class="news">{''.join(items)}</ul></div></section>"""
     return page("index.html", "Home", body)
 
@@ -112,7 +112,7 @@ def members():
         al.append(f'<h3 style="margin:24px 0 8px;font-size:1rem">{grp}</h3><ul class="alumni">{rows}</ul>')
     ug = "".join(f'<li>{e(a["name"])}<span>{e(a["years"])}</span></li>' for a in site["alumni"]["Undergraduate"])
     al.append(f'<h3 style="margin:24px 0 8px;font-size:1rem">Undergraduate Students</h3><ul class="chips">{ug}</ul>')
-    body = (title_block("Members") + f'<section class="wrap" style="padding-bottom:48px"><ul class="people">{"".join(cards)}</ul></section>'
+    body = (title_block("Members") + f'<section class="wrap" style="padding-block:40px 56px"><ul class="people">{"".join(cards)}</ul></section>'
             + f'<section class="sec"><div class="wrap"><h2>Alumni</h2>{"".join(al)}</div></section>')
     return page("members.html", "Members", body)
 
@@ -123,7 +123,7 @@ def dl(rows):
 
 def professor():
     p = site["professor"]
-    body = title_block("Professor") + f"""<section class="wrap prof" style="padding-bottom:40px">
+    body = title_block("Professor") + f"""<section class="wrap prof" style="padding-block:40px">
   <img src="assets/img/members/sungjoo-hwang.webp" alt="{e(p['name'])}" width="413" height="513">
   <div><h2>{e(p['name'])} <span style="font-weight:500;color:var(--muted);font-size:1.1rem">{e(p['ko'])}</span></h2>
   <p class="sub">{e(p['title'])}<br>{e(p['dept'])}</p>
@@ -159,8 +159,8 @@ def publications():
                       + "".join(f'<li>{mark(x["text"])}' + (f' <a href="{e(x["link"])}">DOI</a>' if x["link"] else "") + "</li>" for x in xs)
                       + "</ul></div>" for y, xs in by.items())
         out.append(f'<section class="sec" id="{k}"><div class="wrap"><h2>{n}<small>{len(pubs[k])}</small></h2>{yrs}</div></section>')
-    body = (f'<section class="wrap page-title"><h1>Publications</h1><p>Bold marks Prof. Sungjoo Hwang. '
-            f'Corresponding-author and under-review papers are tagged.</p><nav class="toc" aria-label="Sections">{toc}</nav></section>' + "".join(out))
+    body = (f'<section class="band"><div class="wrap page-title"><h1>Publications</h1><p>Bold marks Prof. Sungjoo Hwang. '
+            f'Corresponding-author and under-review papers are tagged.</p><nav class="toc" aria-label="Sections">{toc}</nav></div></section>' + "".join(out))
     return page("publications.html", "Publications", body)
 
 
@@ -181,7 +181,7 @@ def research_page():
 def teaching_page():
     rows = "".join(f'<li><code>{e(c["code"])}</code><div><h3>{e(c["title"])}<span>{e(c["ko"])}</span></h3><p>{e(c["desc"])}'
                    + (f' ({e(c["note"])})' if c["note"] else "") + f'</p></div><span class="yrs">{e(c["years"])}</span></li>' for c in teaching)
-    body = title_block("Teaching") + f'<section class="wrap" style="padding-bottom:48px"><ul class="courses">{rows}</ul></section>'
+    body = title_block("Teaching") + f'<section class="wrap" style="padding-block:40px 56px"><ul class="courses">{rows}</ul></section>'
     return page("teaching.html", "Teaching", body)
 
 
